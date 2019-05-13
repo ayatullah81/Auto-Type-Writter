@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+body{
+    font-family: 'Gugi', cursive;
+    height: 100vh;
+    background: #333 url('https://image.ibb.co/n5A2HU/showcase.jpg') no-repeat center center/cover;
+    color: #ccc;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+h2, h3{
+    font-weight: 200;
+    margin: 0.4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2rem;
+    color: #aaa;
+}
